@@ -20,11 +20,6 @@ class Action extends LaravelAction
 	 */
 	public function execute($data)
 	{
-		$payload = $this->processor->process($data, $this->config);
-
-		if( ! $payload->isStatus(Payload::STATUS_VALID))
-		{
-			return $payload;
-		}
+		return $this->processor->process($data, $this->config);
 	}
 }

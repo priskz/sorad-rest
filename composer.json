@@ -1,0 +1,23 @@
+{
+    "name": "priskz/sorad-rest",
+    "description": "A generic set of restful SORAD Responders.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Zachary Prisk",
+          "email": "zachary.prisk@gmail.com"
+        }
+    ],
+    "require": {
+        "priskz/payload": "~0.1.0",
+        "priskz/sorad-api": "~0.1.0",
+        "priskz/paylorm": "~0.1.0",
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Priskz\\SORAD\\": "src/Priskz/SORAD"
+        }
+    }
+}

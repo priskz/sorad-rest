@@ -1,4 +1,4 @@
-# SORAD API Package
+# SORAD Rest Responders
 
 ## Purpose
 

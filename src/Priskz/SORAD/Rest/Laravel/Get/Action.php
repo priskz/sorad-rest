@@ -20,6 +20,6 @@ class Action extends LaravelAction
 	 */
 	public function execute($data)
 	{
-		return $this->processor->process($data, $this->config);
+		return $this->processor->process($data, $this->getConfg());
 	}
 }
